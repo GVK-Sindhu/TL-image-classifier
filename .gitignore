@@ -3,7 +3,6 @@ __pycache__/
 *.pyc
 *.h5
 *.pth
-models/
 data/
 .DS_Store
 .ipynb_checkpoints
