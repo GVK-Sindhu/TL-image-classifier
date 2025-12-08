@@ -4,6 +4,15 @@ __pycache__/
 *.h5
 *.pth
 data/
+tensorflow_datasets/
 .DS_Store
 .ipynb_checkpoints
 .env
+*.checkpoint
+*.ckpt
+*.ckpt.data*
+*.pb
+.keras/
+models/*.h5
+!models/best_model.h5
+!models/final_model.keras
