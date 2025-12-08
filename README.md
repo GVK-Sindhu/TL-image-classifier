@@ -35,6 +35,9 @@ split data
 80% train
 10% validation
 10% test
+
+
+
 Folder structure created:
 ---
 data/train/
@@ -125,10 +128,8 @@ Highlights which parts of the image the model focuses on when making predictions
 This demonstrates model interpretability and verifies correct feature utilization.
 
 📁 Project Structure
+---
 
-
-bash
-Copy code
 TL-image-classifier/
 │
 ├── data/                      
@@ -169,19 +170,12 @@ TL-image-classifier/
 
 🚀 How to Run the Project
 1. Install dependencies
-nginx
-Copy code
 pip install -r requirements.txt
 2. Download and prepare dataset
-bash
-Copy code
 python scripts/download_dataset.py
 python scripts/split_dataset.py
 3. Run training notebook
 Open:
-
-bash
-Copy code
 notebooks/train_and_eval.ipynb
 Run all cells for:
 
@@ -201,9 +195,7 @@ saving final model
 
 4. Final model files
 Located in:
-
-bash
-Copy code
+---
 models/best_model.h5
 models/final_model.keras
 
@@ -220,6 +212,7 @@ This project demonstrates full ML engineering workflow.
 
 📜 License
 This project is for academic and learning purposes.
+
 
 
 
