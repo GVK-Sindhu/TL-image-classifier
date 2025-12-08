@@ -6,10 +6,16 @@ The goal of this project is to build a high-performance image classifier using t
 This demonstrates end-to-end mastery of:
 
 1 dataset preparation
+
+
 2 preprocessing & augmentation
+
 3 feature extraction
+
 4 fine-tuning
+
 5 evaluation & interpretability
+
 6 baseline model comparison
 
 This is a complete deep learning workflow commonly used in modern computer vision systems.
@@ -23,17 +29,14 @@ Classes:
 4 Sunflowers
 5 Tulips
 Dataset was automatically downloaded using TensorFlow Datasets and split into:
-shell
----
 
-Copy code
+split data
+---
 80% train
 10% validation
 10% test
 Folder structure created:
-
-kotlin
-Copy code
+---
 data/train/
 data/val/
 data/test/
@@ -217,5 +220,6 @@ This project demonstrates full ML engineering workflow.
 
 📜 License
 This project is for academic and learning purposes.
+
 
 
