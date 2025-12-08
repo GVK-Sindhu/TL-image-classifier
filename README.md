@@ -1,4 +1,6 @@
 Transfer Learning Image Classifier – TF Flowers Dataset
+
+
 📌 Objective
 The goal of this project is to build a high-performance image classifier using transfer learning with a pre-trained CNN (ResNet50).
 This demonstrates end-to-end mastery of:
@@ -45,7 +47,12 @@ Copy code
 data/train/
 data/val/
 data/test/
+
+
 🧠 Model Architecture
+
+
+
 1. Transfer Learning Model (ResNet50)
 Base Model
 Pretrained: ImageNet
@@ -87,7 +94,10 @@ ModelCheckpoint → saves best_model.h5
 
 EarlyStopping → prevents overfitting
 
+
 📈 Baseline Model (Trained From Scratch)
+
+
 A simple CNN with ~11M parameters:
 
 3× Conv2D + MaxPooling
@@ -107,11 +117,15 @@ Transfer Learning (ResNet50)	Higher accuracy (best_model.h5 saved)
 Exact numbers depend on training run, but ResNet50 consistently outperforms baseline.
 
 📊 Confusion Matrix
+
+
 (Attached in visualizations/confusion_matrix.png)
 
 Shows class-wise prediction distribution and helps identify misclassification patterns.
 
 🔥 Grad-CAM Visualization
+
+
 (Attached in visualizations/gradcam_example.png)
 
 Highlights which parts of the image the model focuses on when making predictions.
@@ -119,11 +133,13 @@ Highlights which parts of the image the model focuses on when making predictions
 This demonstrates model interpretability and verifies correct feature utilization.
 
 📁 Project Structure
+
+
 bash
 Copy code
 TL-image-classifier/
 │
-├── data/                      # (Ignored in GitHub)
+├── data/                      
 │   ├── train/
 │   ├── val/
 │   └── test/
@@ -146,6 +162,8 @@ TL-image-classifier/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
+
 🚀 How to Run the Project
 1. Install dependencies
 nginx
@@ -185,6 +203,8 @@ bash
 Copy code
 models/best_model.h5
 models/final_model.keras
+
+
 🎯 Key Takeaways
 Transfer learning significantly improves accuracy vs training from scratch.
 
@@ -198,3 +218,4 @@ This project demonstrates full ML engineering workflow.
 
 📜 License
 This project is for academic and learning purposes.
+
